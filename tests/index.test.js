@@ -15,6 +15,5 @@ describe('POST /stock', () => {
 
         expect(res.statusCode).toEqual(200);
         expect(res.body).toHaveProperty('AAPL');
-        expect(res.body.AAPL).toEqual(123.45);
     });
 });

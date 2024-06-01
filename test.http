@@ -1,0 +1,6 @@
+POST http://localhost:3000/stock
+Content-Type: application/json
+
+{
+    "ticker":"META"
+}
